@@ -269,7 +269,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------.
  * | Reset|      |      |      |      |      |      |      |      |      |      |EEPROM|
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      |Qwerty|UNIWIN|      |      |      |      |      |      |      |      |      |
+ * |      |Qwerty|UNIWIN|      |      |      |      |      | MP.SC|      |      |      |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * |      |      |      |Dvorak|      | Game |      |      |      |UNILIN|      |      |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
@@ -280,7 +280,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_ADJUST] = LAYOUT_preonic_1x2uC(
   QK_BOOT, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, EE_CLR,
-  XXXXXXX,  QWERTY,   UNIWIN, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+  XXXXXXX,  QWERTY,   UNIWIN, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_PSCR, XXXXXXX, XXXXXXX, XXXXXXX,
   XXXXXXX, XXXXXXX, SPACEING,  DVORAK, XXXXXXX, GAME,    XXXXXXX, XXXXXXX, XXXXXXX,  UNILIN, XXXXXXX, XXXXXXX,
   XXXXXXX, XXXXXXX,  XXXXXXX, COLEMAK, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   XXXXXXX, RGB_TOG,  RGB_MOD, XXXXXXX, _______,     XXXXXXX     , _______, RGB_HUI, RGB_HUD, RGB_VAI, RGB_VAD
